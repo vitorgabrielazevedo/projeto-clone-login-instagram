@@ -81,11 +81,20 @@ main {
 }
 
 #login-btn,
-#redefinir-senha {
+#redefinir-senha,
+#facebook-container {
     width: 100%;
     padding: 15px;
     font-weight: bold;
     font-size: 15px;
+}
+
+#login-btn,
+#facebook-container,
+#facebook-container button {
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 #login-btn {
@@ -94,9 +103,6 @@ main {
     border: none;
     background-color: #0064e0;
     margin-top: 1rem;
-    transition: 0.3s;
-    cursor: pointer;
-    opacity: 0.9;
 }
 
 #login-btn:hover {
@@ -117,4 +123,33 @@ main {
 #redefinir-senha:hover {
     background-color: #f2f4f6;
     border-radius: 50px;
+}
+
+#facebook-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f2f4f6;
+    border-radius: 50px;
+}
+
+#facebook-logo {
+    width: 16px;
+    height: 16px;
+}
+
+#facebook-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#facebook-container button {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#facebook-container:hover {
+    background-color: #e2e4e6;
 }
