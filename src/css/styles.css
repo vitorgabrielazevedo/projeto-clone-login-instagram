@@ -105,8 +105,12 @@ main {
 
 #redefinir-senha {
     margin-top: 10px;
+}
+
+#redefinir-senha a {
     text-decoration: none;
     color: #271112;
+    display: block;
     text-align: center;
 }
 
