@@ -59,7 +59,8 @@ main {
 #form-container {
     display: flex;
     flex-direction: column;
-    padding: 5rem 3rem;
+    justify-content: center;
+    padding: 5rem 3rem 0rem;
     width: 40%;
 }
 
@@ -82,7 +83,8 @@ main {
 
 #login-btn,
 #redefinir-senha,
-#facebook-container {
+#facebook-container,
+#criar-conta-container {
     width: 100%;
     padding: 15px;
     font-weight: bold;
@@ -91,7 +93,8 @@ main {
 
 #login-btn,
 #facebook-container,
-#facebook-container button {
+#facebook-container button,
+#criar-conta-container {
     transition: 0.3s;
     cursor: pointer;
     opacity: 0.9;
@@ -110,7 +113,7 @@ main {
 }
 
 #redefinir-senha {
-    margin-top: 10px;
+    margin: 10px 0 3rem;
 }
 
 #redefinir-senha a {
@@ -152,4 +155,32 @@ main {
 
 #facebook-container:hover {
     background-color: #e2e4e6;
+}
+
+#criar-conta-container {
+    border-radius: 50px;
+    border: 1px solid #0064e0;
+    margin-top: 10px;
+}
+
+#criar-conta-container:hover {
+    background-color: #f2f4f6;
+}
+
+#criar-conta-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #0064e0;
+}
+
+#meta-container {
+    width: 60px;
+    height: auto;
+    margin: 1rem auto 1rem;
+}
+
+#meta-container img {
+    width: 100%;
+    height: 100%;
 }
